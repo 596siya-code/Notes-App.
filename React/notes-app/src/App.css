@@ -1,0 +1,46 @@
+  .notes-app{
+    max-width: 1100px;
+   margin: 20px;
+    background: rgb(245, 238, 242)
+  
+  }
+  .notes-app button{
+    padding: 10px;
+    margin: 5px;
+    background: #7654b5;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .notes-app h1{
+    text-align: center;
+    color: black;
+   
+    
+   
+  }
+  .notes-app input,.notes-apptextarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .notes-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 2fr));
+    gap: 15px;
+  }
+
+  .note{
+    background:  #e4d5f8;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+  body{
+        background: rgb(245, 238, 242)
+
+  }
+  
